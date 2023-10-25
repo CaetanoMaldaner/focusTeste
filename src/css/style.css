@@ -1,12 +1,12 @@
 :root {
   /* Theme - light */
-  --primary: #ffffff;
+  --primary: #000000;
   --secondary-rgb: 255, 255, 255;
   --primary-rgb: 15, 23, 42;
   
   /* Generic */
   --transparent: transparent;
-  --theme-dark: #1f3149;
+  --theme-dark: #334155;
   --theme-light: #cbd5e1;
 
   /* Colors */
@@ -15,7 +15,7 @@
 
 [data-theme="dark"] {
   /* Theme - dark */
-  --primary: #000000;
+  --primary: #ffffff;
   --secondary-rgb: 15, 23, 42;
   --primary-rgb: 255, 255, 255;
 }
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace MS;
+  font-family: Trebuchet MS;
   margin: 0;
   padding: 0;
   display: flex;
@@ -103,7 +103,7 @@ input:focus {
   }
 
   body {
-      background: url("https://images.pexels.com/videos/2536758/free-video-2536758.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200") no-repeat;
+      background: url("https://images.pexels.com/videos/1390942/free-video-1390942.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200") no-repeat;
       background-size: cover;
   }
 }

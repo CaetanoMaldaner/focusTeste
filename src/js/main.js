@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function getSetFocus() {
   const input = document.getElementById("focus");
 
-  const currentFocus = lo.calStorage.getItem('focus') ? localStorage.getItem('focus') : null;
+  const currentFocus = localStorage.getItem('focus') ? localStorage.getItem('focus') : null;
   if (currentFocus) {
       input.value = currentFocus
   }
